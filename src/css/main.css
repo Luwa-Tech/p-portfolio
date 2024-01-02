@@ -1972,6 +1972,7 @@ input, select, textarea {
 	.form-submit-button {
 		margin-top: .8rem !important;
 		color: #787878;
+		border-color: #787878;
 		border-width: .2rem !important;
 		border-style: solid;
 		background: transparent !important;
@@ -1984,6 +1985,12 @@ input, select, textarea {
 		border-color: #1509c2 !important;
 		color: #1509c2 !important;
 	}
+
+	/* @media (max-width: 599px) {
+		.form-submit-button [
+
+		]
+	} */
 
 	::-webkit-input-placeholder {
 		color: #b2b2b2 !important;
