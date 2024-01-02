@@ -1853,7 +1853,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #49bf9d;
+			border-color: #1509c2;
 		}
 
 	select {
@@ -1958,7 +1958,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #49bf9d;
+			border-color: #1509c2;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -1967,6 +1967,22 @@ input, select, textarea {
 
 	input[type="radio"] + label:before {
 		border-radius: 100%;
+	}
+
+	.form-submit-button {
+		margin-top: .8rem !important;
+		color: #787878;
+		border-width: .2rem !important;
+		border-style: solid;
+		background: transparent !important;
+		padding: .5rem .6rem;
+		font-size: .9rem;
+	}
+
+	.form-submit-button:hover,
+	.form-submit-button:focus {
+		border-color: #1509c2 !important;
+		color: #1509c2 !important;
 	}
 
 	::-webkit-input-placeholder {
